@@ -44,23 +44,19 @@
                             <strong> <label for="password" class="form-label">Contraseña</label></strong>
                             <input formControlName="contrasenia" type="password" class="form-control" id="contrasenia">
                         </div>
-                        <div class="mb-4 form-check">
-                            <input type="checkbox" name="connected" class="form-check-input" onclick="">
-                            <strong> <label for="conneted" class="form-check-label">Mostrar Contraseña</label></strong>
-                        </div>
+                        
 
                         <strong> <button type="submit" class="btn btn-primary float-end">Aceptar</button></strong>
 
                         <div class="d-grid">
-                            <strong> <button type="submit" class="btn btn-success" routerLink="/home"
-                  routerLinkActive="router-link-active">Iniciar
+                            <strong> <button type="submit" class="btn btn-success" [routerLink]="['/home']" routerLinkActive="router-link-active" >Iniciar
                   Sesión</button></strong>
 
                             <button type="button" class="btn btn-link" routerLink="/registroAdmin">¿No tienes una cuenta?</button>
-
                         </div>
-
                     </form>
+
+                    
                 </div>
             </div>
         </div>
