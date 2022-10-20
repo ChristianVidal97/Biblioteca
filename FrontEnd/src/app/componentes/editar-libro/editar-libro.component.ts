@@ -10,18 +10,26 @@ export class EditarLibroComponent implements OnInit {
 
   listaLibros: Libro []= [
     {
-    nombre:'Programación',
-    isbn:'252525',
-    editorial:'Malasca',
-    autor:'Juan Perez'
+    nombre:'DEL AMOR Y OTROS DEMONIOS',
+    isbn:'226663325632236',
+    editorial:'',
+    autor:'GABRIEL GARCIA MARQUEZ'
   
   },
 
   {
-    nombre:'Programación',
-    isbn:'252525',
-    editorial:'Malasca',
-    autor:'Juan Perez'
+    nombre:'THE BLACK CAT',
+    isbn:'6622336666',
+    editorial:'',
+    autor:'EDGAR ALLAN POE'
+  
+  },
+
+  {
+    nombre:'CIEN AÑOS DE SOLEDAD',
+    isbn:'23213215525561',
+    editorial:'',
+    autor:'GABRIEL GARCIA MARQUEZ'
   
   }
 ]
