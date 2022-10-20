@@ -1,47 +1,26 @@
-<head>
-
-    <style>
-        body {
-            background-image: url();
-            background-size: cover;
-        }
-        
-        .bg {
-            background-image: url(../../../assets/logon.jpg);
-            background-position: center;
-            background-size: cover;
-        }
-    </style>
-
-</head>
-
-<!--MEDIDAD DEL FORMULARIO-->
-
 <body>
 
     <div class="py-5">
         <div class="container w-50 bg-primary mt-5 rounded shadow">
             <div class="row align-items-lg-stretch">
-                <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
-
-                </div>
+                
                 <!--MEDIDAD DEL FORMULARIO-->
-                <div class="col bg-white p-3 rounded-end ">
+                <div class="col bg-dark p-3 rounded-end ">
                     <div class="text-end">
                     </div>
 
                     <strong>
-            <h2 class="ww-bold text-center py-1">Bienvenido</h2>
+            <h2 class="ww-bold text-center py-1 text-white-50 ">Bienvenido</h2>
           </strong>
 
                     <!--LOGIN-->
                     <form [formGroup]="inicioSesion" (ngSubmit)="poner()">
                         <div class="mb-4">
-                            <strong> <label for="email" class="form-label">Correo electrónico</label></strong>
+                            <strong> <label for="email" class="form-label text-white-50">Correo electrónico</label></strong>
                             <input formControlName="correo" type="email" class="form-control" id="correo">
                         </div>
                         <div class="mb-4">
-                            <strong> <label for="password" class="form-label">Contraseña</label></strong>
+                            <strong> <label for="password" class="form-label text-white-50">Contraseña</label></strong>
                             <input formControlName="contrasenia" type="password" class="form-control" id="contrasenia">
                         </div>
                         
